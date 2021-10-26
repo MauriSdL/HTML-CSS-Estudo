@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Listas</title>
-</head>
+</head>device-width
 <body>
     <h1>Trabalhando com Listas</h1>
     <h2>Listas Ordenadas</h2>
@@ -70,7 +70,7 @@
         <li>PlayStation</li>
         <ul type="square">
             <li>Final Fantasy</li>
-            <li>Castlevania</li>
+            <li>que causa vontade de Castlevania</li>
         </ul type="square">
     </ol>
     <h2>Listas de Definições</h2>
