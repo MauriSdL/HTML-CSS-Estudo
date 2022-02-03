@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas Não Ordenadas</title>
+    <link rel="stylesheet" href="CSS - PG - Pagina Principal.CSS">
+    
+</head>
+<body>
+    
+    <h1>Listas</h1>
+    
+    
+        <p>Tag li - - Defini um item da lista.</p>
+        <p>Toda lista começa com a Tag ul (lista não ordenada) ou  Tag ol (lista ordenada).</p>
+        <p>Tag li dentro da Tag ul inicia a lista com um circulo Fechado Preenchido</p>
+    
+
+    
+    <br>
+    <h2>Lista Ordenada</h2>
+    <h4>type="i" ( a,1, A, I, i )</h4>
+    
+    
+    
+<h3><b>Minhas linguagem favoritas</b></h3>
+<ol>Antigas</ol>
+<ol type="a">
+    <li>Clipper</li>
+    <li>Visual Basic</li>
+    <li>Fortran</li>
+    <li>Delphi</li>
+</ol>
+<ol>Novas</ol>
+<ol type="a" start="5">   <!--O 5 referece ao 5 item somando as 2 listas --> 
+    <li>PHP</li>
+    <li>Python</li>
+    <li>javascript</li>
+    <li>Kotlin</li>
+</ol>
+
+</ol>
+
+
+    <p>Resultado</p>
+    <xmp>
+    <li>Antigas</li>
+    <ol type="a"> 
+        <li>Clipper</li>
+        <li>Visual Basic</li>
+        <li>Fortran</li>
+        <li>Delphi</li>
+    </ol>
+    <li>Novas</li>
+    <ol type="a" start="5"> 
+        <li>PHP</li>
+        <li>Python</li>
+        <li>javascript</li>
+        <li>Kotlin</li>
+    </ol>
+    </xmp>
+
+ 
+
+
+<br>
+ <br>
+ <br>   
+
+
+
+   
+    <p>Parametro <br> value="6" <br> value="" fica dentro da <b>Tag li</b>, A partir dela a contagem começa, A partir do valor informado dentro de <b>li value="6"> A lista continua a contagem a partir do 6 especificado em li value"6". <br> <small>Obs: Lista da Esquerda modificada e lista da Direita sem alteração</small></b></p>
+    <ol>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li value="6">9</li>
+        <li>10</li>
+        <li>11</li>
+        <li>12</li>
+        <li>13</li>
+        <li>14</li>
+        <li>15</li>
+    </ol>
+    <p>Resultado</p>
+    <xmp>
+    <ol>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li value="6">9</li>
+        <li>10</li>
+        <li>11</li>
+        <li>12</li>
+        <li>13</li>
+        <li>14</li>
+        <li>15</li>
+    </ol>
+    </xmp>
+    
+    <br>
+    <br>
+    <br>
+
+
+
+<p><b>Parametro reversed</b> -> Numeros Descrecente.</p>
+
+    <ol reversed>
+        <li>Acordar</li>
+        <li>Estudar</li>
+        <li>Malhar</li>
+        <li>Almoçar</li>
+        <li>Trabalhar</li>
+    </ol>
+    <p>Resultado</p>
+<xmp>
+    <ol reversed>
+        <li>Acordar</li>
+        <li>Estudar</li>
+        <li>Malhar</li>
+        <li>Almoçar</li>
+        <li>Trabalhar</li>
+    </ol>
+</xmp>
+    
+
+    <br>
+    <br>
+    <br>
+    
+    
+    
+<p><b>Tag type="A"</b>-> Alfabeto em Maiusculo</p>
+
+<ol type="A">
+    <li>html</li>
+    <li>css 3</li>
+    <li>javascrip</li>
+    <li>PHP 7</li>
+    <li>MSQL 8</li>
+</ol>
+<p>Resultado</p>
+<xmp>
+    <ol type="A">
+        <li>html</li>
+        <li>css 3</li>
+        <li>javascrip</li>
+        <li>PHP 7</li>
+        <li>MSQL 8</li>
+    </ol>
+</xmp>
+    
+    
+    <br>
+    <br>
+    <br>
+    
+    
+    
+    <p><b>Tag type="a"</b>-> Alfabeto em Minusculo</p>
+    
+    <ol type="a">
+        <li>html</li>
+        <li>css 3</li>
+        <li>javascrip</li>
+        <li>PHP 7</li>
+        <li>MSQL 8</li>
+    </ol>
+    <p>Resultado</p>
+    <xmp>
+        <ol type="a">
+            <li>html</li>
+            <li>css 3</li>
+            <li>javascrip</li>
+            <li>PHP 7</li>
+            <li>MSQL 8</li>
+        </ol>
+    </xmp>
+    
+
+<br>
+<br>
+<br>
+
+
+
+    <p><b>Tag type="i"</b>-> Alfabeto Romano Minusculo</p>
+    
+    <ol type="i">
+        <li>html</li>
+        <li>css 3</li>
+        <li>javascrip</li>
+        <li>PHP 7</li>
+        <li>MSQL 8</li>
+    </ol>
+    <p>Resultado</p>
+    <xmp>
+        <ol type="i">
+            <li>html</li>
+            <li>css 3</li>
+            <li>javascrip</li>
+            <li>PHP 7</li>
+            <li>MSQL 8</li>
+        </ol>
+    </xmp>
+    
+    
+    <br>
+    <br>
+    <br>
+    
+    
+    
+    <p><b>Tag type="I"</b>-> Alfabeto Romano Maiusculo</p>
+    
+    <ol type="I">
+        <li>html</li>
+        <li>css 3</li>
+        <li>javascrip</li>
+        <li>PHP 7</li>
+        <li>MSQL 8</li>
+    </ol>
+    <p>Resultado</p>
+    <xmp>
+        <ol type="I">
+            <li>html</li>
+            <li>css 3</li>
+            <li>javascrip</li>
+            <li>PHP 7</li>
+            <li>MSQL 8</li>
+        </ol>
+    </xmp>    
+    
+    <br>
+    <br>
+    <br>
+    
+    
+    
+    <p><b>Tag type="1" start="10"</b><br>  Inicia ama lista com a Numeração escolhido em start="escolhe o valor"</p>
+    
+    <ol type="1" start="10">
+        <li>html</li>
+        <li>css 3</li>
+        <li>javascrip</li>
+        <li>PHP 7</li>
+        <li>MSQL 8</li>
+    </ol>
+    <p>Resultado</p>
+    <xmp>
+        <ol type="1" start="10">
+            <li>html</li>
+            <li>css 3</li>
+            <li>javascrip</li>
+            <li>PHP 7</li>
+            <li>MSQL 8</li>
+        </ol>
+    </xmp>
+
+
+
+    <br>
+    <br>
+    <br>
+
+
+    
+<h2>Tag dl</h2>
+<p>Usada para criar um titulo comtendo sua descrição,<br> É usada em conjunto com as tags. <br> dt e dd.</p>
+<p>A tag dt - - É o titulo.<br> A Tag dd - - É a descrição.(conteudo)</p>    
+        
+<dl>
+    <dt>Titulo</dt>
+    <dd>Descição do titulo</dd>
+</dl>     
+<p>Resultado</p>
+<xmp>
+        <dl>
+            <dt>Titulo</dt>
+            <dd>Descição do titulo</dd>
+        </dl>
+</xmp> 
+    
+
+
+    <br>
+    <br>
+    <br>
+
+
+
+    </blockquote>
+        <h2>Listas não Ordenadas</h2>
+        <h4>type="square" ( disc, circle, square )</h4>
+    <br>
+    <br>      
+        
+    <h2>Circulo Fechado Preenchido</h2>
+    
+    
+        <ul> 
+            <li>Pão</li>
+            <li>Leite</li>
+            <li>Tomate</li>
+            <li>Manteiga</li>
+            <li>Arroz</li>
+            <li>Feijão</li>
+        </ul>
+    
+       
+    
+        <p>Resultado</p>
+        <xmp>
+            <ul>
+                <li>Pão</li>
+                <li>Leite</li>
+                <li>Tomate</li>
+                <li>Manteiga</li>
+                <li>Arroz</li>
+                <li>Feijão</li>
+            </ul>
+        </xmp>       
+    
+    
+    
+    <br>
+    <br>
+    <br>
+
+
+
+    
+        <h2>Circulo Aberto</h2>
+    
+        <ul type="circle">
+            <li>Pão</li>
+            <li>Leite</li>
+            <li>Tomate</li>
+            <li>Manteiga</li>
+            <li>Arroz</li>
+            <li>Feijão</li>
+        </ul>
+    
+        
+        <p>Resultado</p>
+    <xmp>
+        <ul type="circle"> 
+            <li>Pão</li>
+            <li>Leite</li>
+            <li>Tomate</li>
+            <li>Manteiga</li>
+            <li>Arroz</li>
+            <li>Feijão</li>
+        </ul>
+    </xmp>   
+    
+    
+    
+    
+    <br>
+    <br>
+    <br>
+
+
+
+    
+    <h2>Quadradinho</h2>
+
+    <ul type="square">
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    
+    <p>Resultado</p>
+    <xmp>
+    <ul type="square">
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    </xmp>
+    
+    
+    <br>
+    <br>
+    <br>
+    
+
+
+    
+    <h3>Meus jogos favoritos</h3>
+    <ol>
+        <li>Nes</li>
+        <ul type="disc">
+            <li>Mario Bross</li>
+            <ul type="circle">
+                <li>Mario Bross 3</li>
+                <li>Mario: Lost levels</li>
+            </ul>
+            <li>Ninja Gaiden</li>
+        </ul>
+        <li>SNes</li>
+        <ul type="circle">
+            <li>Mario</li>
+            <li>Donkey kong</li>
+        </ul>
+        <li>PlayStation</li>
+        <ul type="square">
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ul>
+    </ol>
+    
+    <p>Código</p>
+    <xmp>
+    <ol>
+        <li>Nes</li>
+        <ul type="square">
+            <li>Mario Bross</li>
+            <ul type="disc">
+                <li>Mario Bross 3</li>
+                <li>Mario: Lost levels</li>
+            </ul>
+            <li>Ninja Gaiden</li>
+        </ul>
+        <li>SNes</li>
+        <ul type="circle">
+            <li>Mario</li>
+            <li>Donkey kong</li>
+        </ul>
+        <li>PlayStation</li>
+        <ul type="square">
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ul>
+    </ol>
+    </xmp>
+    <h2>Fim</h2>
+
+    
+</body>
+</html>

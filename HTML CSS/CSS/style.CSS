@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+
+lorem{
+    text-align:justify;
+    font-family: serif;
+    font-size: 21px;
+}
+body{
+    background-image: linear-gradient(to top,#7025A1,#ebb697 97% );
+}
+main{
+    border-radius:10px;
+    box-shadow: 6px 7px 5px #6d350364;
+    background-color: white;
+    width: 1200px;
+    padding: 20px;
+    margin:auto;
+}
+h1{
+    color:#faad69f0;
+    text-align: center;
+    text-shadow: 1px 1px 2px #0e0700;
+    font-family: fantasy;
+}
+h2{
+    color: #589EA6;
+    font-family:fantasy;
+}

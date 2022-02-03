@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div Aula 1</title>
+    <style>
+        div{
+            display: inline-block;
+            background-color: lightgray;
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+
+        div:hover{
+            background-color: rgb(235, 235, 123);
+        }
+        div > p{
+            display: none;
+        }
+
+        div:hover > p{
+            display: block;
+            color: white;
+            background-color:blue;
+        }
+
+        div#cor_texto:hover{
+            color:black;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mause sobre o texto abaixo.</p>
+    <div id="cor_texto">Passe o mause aqui
+        <p>texto escondido</p>
+    </div>
+    <p>fim do exemplo</p>
+    
+</body>
+</html>

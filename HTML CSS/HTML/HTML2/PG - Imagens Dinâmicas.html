@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+    <link rel="stylesheet" href="CSS - PG - Pagina Principal.CSS">
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <h2>Conversor de imagens online</h2>
+    <a href="https://tinyjpg.com/" target="_self">tinyjpg</a> <br>
+    <a href="https://tinypng.com/" target="_self">tinypng</a>
+    <h2>Configurações das imagem</h2>
+    <h3>Abra esse site em varios dispositivos diferentes ou simplesmente Aumente e diminua o tamanho do seu navegador agora,  Veja o resultado.</h3>
+    <h2>Ordem das Imagens</h2>
+    <h3><mark>1 -</mark> source media=" Tamanho pequena 300x300 px"</h3>
+    <h3><mark>2 -</mark> source media=" Tamanho médio 700x700 px"</h3>
+    <h3><mark>3 -</mark> img src Tamanho grande 1000 px</h3>
+    <h4><mark>src</mark> . . . É o endereço da imagem</h4>
+    <h4><mark>type</mark> . . . É o tipo de Arquivo e seu formato(image/png)</h4>
+    <h4><mark>Obs:</mark> Em max-wigth:No tamanho da imagem, Sempre aumente 50, Devido a barra de rolagem</h4>
+    <h4><mark>Em alt=</mark> Você coloca o nome do titulo dado a Imagem</h4>
+    <h2>Codigo fica o código:</h2>
+    <xmp>
+        <picture>
+        <source media="(max-width:750px )" srcset="img/Imagem-P.png"type="image/png">
+        <source media="(max-width:1050px)" srcset="img/Imagem-M.png"type="image/png">
+        <img src="img/Imagem-G.png" alt="Imagem flexicivel">
+        </picture>
+    </xmp>
+    
+    <h2>Atributos</h2>
+    <h3><mark>alt . . . . . . . . . . </mark>Define um texto Alternativo para a imagem.</h3>
+    <h3><mark>src . . . . . . . . . . </mark>Define qual a fonte/link da imagem</h3>
+    <h3><mark>ismap . . . . . . . </mark>Define a imagem como um mapa de imagem do lado do servidor.</h3>
+    <h3><mark>sizes . . . . . . . . .</mark>Define tamanho alternativo da imagem</h3>
+    <h3><mark>height . . .  . . . . </mark>Define a altura da imagem</h3>
+    <h3><mark>srcset . . . . . . . . </mark>Define a url da imagem em diferentes situações.</h3>
+    <h3><mark>usemap . . . . . . </mark>Define a largura da imagem.</h3>
+    <h3><mark>longdesc . . . . . </mark>Define uma descrição detalhada da imagem.</h3>
+    <h3><mark>crossorigin . . . </mark>Define como o elemento lida com solicitações de origem cruzada.</h3>
+
+    <picture>
+    <source media="(max-width:750px )" srcset="img/Imagem-P.png"type="image/png">
+    <source media="(max-width:1050px)" srcset="img/Imagem-M.png"type="image/png">
+    <img src="img/Imagem-G.png" alt="Imagem flexivel">
+    </picture>
+
+    
+    <h2>Celular</h2>
+    <h4><MARK>Tamanho:</MARK> 300x300</h4>
+    <h4><MARK>Resuloção:</MARK> 80.00</h4>
+    <h4><MARK>Prescisao:</MARK> ineiro 8bits</h4>
+    <h4><MARK>Preencher com:</MARK> Cor de fundo</h4>
+
+    <h2>Tablet</h2>
+    <h4><MARK>Tamanho:</MARK> 700x700</h4>
+    <h4><MARK>Resuloção:</MARK> 80.00</h4>
+    <h4><MARK>Prescisao:</MARK> ineiro 8bits</h4>
+    <h4><MARK>Preencher com:</MARK> Cor de fundo</h4>
+    
+    <h2>PC e TVs</h2>
+    <h4><MARK>Tamanho:</MARK> 1000x1000</h4>
+    <h4><MARK>Resuloção:</MARK> 80.00</h4>
+    <h4><MARK>Prescisao:</MARK> ineiro 8bits</h4>
+    <h4><MARK>Preencher com:</MARK> Cor de fundo</h4>
+
+    
+    <h3>OBS: No parametro <mark>max-width:px;</mark> você também pode trocar <mark>max</mark> por <mark>min.</mark></h3>
+    <h3>Em <MARK>srcset=</MARK> tem sempre que colocar a <b>pasta / Nome da imagem.png</b></h3>
+    
+    
+</body>
+</html>

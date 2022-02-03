@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mauri</title>
+    <style>
+        mark{
+            background-color: rgb(247, 243, 22);
+        }
+    </style>
+    <link rel="shortcut icon" href="img/Mauri.ico" type="image/x-icon">
+</head>
+<body>
+    <hr>
+    <h1>Pagina Principal</h1>
+    <p><a href="pagina2 link Externo.html"target="_self" rel="next">Proxima pagina</a></p>
+    <h2>Todas as Tags</h2>
+    <h2>As tags em Amarelo contém um sentido semântico</h2>
+    <hr>
+    <p>1 - <b>Tag hr</b> - cria uma linha horizontal como essa de cima</p>
+    
+    <p>2 - <b>Tag br</b> - cria uma quebra<br> </br> de linha</p>
+    
+    <p>3 - <b>Tag lorem</b> - cria um paragrafo completo de exemplo como o exemplo abaixo</p>
+    
+    <blockquote>
+        <p>( Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid optio, a ipsa possimus nobis id in minus accusantium soluta qui, facilis aut! Impedit accusantium recusandae minima, nesciunt suscipit dolorem laudantium! )</p>
+    </blockquote>
+    
+    <p>4 - <b>Tag strong</b> - cria o efeito <strong>(negrito)</strong> com sentido semantico</p>
+    
+    <p>5 - <b>Tag b</b> - cria o efeito <b>(negrito)</b> sem sentido semantico</p>
+    
+    <p>6 - <b>Tag em</b> - cria o efeito <em>(Italico)</em> com sentido semantico</p>
+    
+    <p>7 - <b>Tag code</b> - Letras Mono espaçadas<code>(espaçamentos e larguras iguais)</code> <mark>OBS:</mark>A Tag Code deve estar dentro da tag <b>pre</b></p>
+    <pre>
+     Tag pre
+        Tag code ></Tag>   
+            <p>Codigo escrito em Python 3.9</p>
+            <code>num = int(input('Digite um numero'))
+            if num % 2 ==0:
+               print(f'O numero {num} é Par')
+            else:
+               print(f'O numero {num} é Impar')
+            print('Fim do programa')
+                     Trecho com identação maior que os 4 espaços normail de uma ident        
+        Tag code >
+     Tag pre
+            </code>
+    </pre>
+    
+    <pre>8 - <b>Tag pre</b> Usada para definir um texto pré-formatado    
+        Esta tag preserva a quantidade de
+           espaços inseridos ao digitar quase como uma identação e também a queba de linha        
+    </pre>
+    
+    <pre>9 - <b>Tag q</b> Serve para <q>definir uma citação simples</q> que seria colocar uma frase entre <b>"Aspas
+    Duplas"</b> tambem podendo ser adicionado um link de referencia como o ex: abaixo</pre>
+    
+    <p>10 - <b>Tag blockquote</b><blockquote>Tag usada para definir uma citação externa, Para citaçoes curtas use a <b>Tag q</b> Para definir uma citação simples OBS:verifique com o inspecionar botao direito na pagina para ver o link Add.</blockquote></p>
+    
+    
+    <p>11 - <b>Tag blockquote cite</b> - Aqui vocẽ coloca um link ex: uma citação de um livro por exemplo<b><blockquote cite="https://www.cursoemvideo.com/curso/html5-css3-modulo1/aulas/modulo-1-2/modulos/capitulo-8-aula-4-citacoes-e-codigos/"></blockquote></b></p>
+    
+    <pre>12 - <b><code>Tag abbr title="É o signifícado da abreviação"</code></b> - Revela o significado da palavra Abreviada <abbr title="HTML é HyperText Markup Language — Linguagem de Marcação de Hipertexto — CSS é Cascading Style Sheets -Folha de Estilo em Cascatas">
+     <b>( HTML e CSS )</b></abbr> Passando com o mause por cima da abreviação, Aparecerá o signifícado da Palavra Abreviada.</pre>
+    
+    <p>13 - <b>Tag bdo</b> - Alinha o texto na direção escolhida pelo parametro ( bdo dir="ltr" ) ou ( bdo dir"rtl" ).</p>
+    <pre>
+         
+        <bdo dir="">rtl - Texto escrito de traz para frente da Direita para Esquerda como mostra a frase a baixo ( A casa caiu)</bdo><br>
+                                         <bdo dir="rtl">A casa caiu</bdo><br>
+        <bdo dir="ltr">ltr - Texto escrito da Esquerda para Direita</bdo>
+        </pre>
+    <h2>14 - Listas ordenadas</h2>
+        <h3>São listas com seguencia numerica crescente, Caso vocẽ prescise adicionar algum novo item no meio da lista, Ela adiciona o item mas mantem a numeração crescente de forma automatica sem nescessidade de corrigir a numeração um a um manualmente.</h3>
+    
+    <p>Dentro da - <b>Tag ol</b> vai a <b>Tag Li</b> - Contendo os seus itens que contem na lista.</p>
+    
+    <p><b>Tag ol</b> --> Numeros Crescentes</p>
+    
+    <ol>    
+         <li>Acordar</li>
+        <li>Estudar</li>
+        <li>Malhar</li>
+        <li>Almoçar</li>
+        <li>Trabalhar</li>
+    </ol>
+
+    <p><small><mark>Obs:</mark></small> O atributo <b>value="6"</b> Fica dentro da <b>Tag li</b>escolhida a partir dela a contagem começa a partir do valor informado dentro de <b>li value="x">9 ( posição qualquer da lista )</b></p>
+<ol>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+    <li>8</li>
+    <li value="6">9</li>
+    <li>10</li>
+    <li>11</li>
+    <li>12</li>
+    <li>13</li>
+    <li>14</li>
+    <li>15</li>
+</ol>
+
+
+
+    <p><b>Tag reversed</b> -> Numeros Descrecente.</p>
+    
+        <ol reversed>
+        <li>Acordar</li>
+        <li>Estudar</li>
+        <li>Malhar</li>
+        <li>Almoçar</li>
+        <li>Trabalhar</li>
+    </ol>
+        
+    <p><b>Tag type="A"</b>-> Alfabeto em Maiusculo</p>
+    
+    <ol type="A">
+        <li>html</li>
+        <li>css 3</li>
+        <li>javascrip</li>
+        <li>PHP 7</li>
+        <li>MSQL 8</li>
+    </ol>
+        
+    <p><b>Tag type="a"</b>-> Alfabeto em Minusculo</p>
+    
+    <ol type="a">
+        <li>html</li>
+        <li>css 3</li>
+        <li>javascrip</li>
+        <li>PHP 7</li>
+        <li>MSQL 8</li>
+    </ol>
+    
+    <p><b>Tag type="i"</b>-> Alfabeto Romano em Minusculo</p>
+    
+    <ol type="i">
+        <li>html</li>
+        <li>css 3</li>
+        <li>javascrip</li>
+        <li>PHP 7</li>
+        <li>MSQL 8</li><i>Italico</i>
+    </ol>
+    
+    <p><b>Tag type="I"</b>-> Alfabeto Romano em Maiusculo</p>
+    
+    <ol type="I">
+        <li>html</li>
+        <li>css 3</li>
+        <li>javascrip</li>
+        <li>PHP 7</li>
+        <li>MSQL 8</li>
+    </ol>
+    
+    <p><b>Tag type="1" start="10"</b>-> Inicia ama lista com a Numeração escolhido em start="escolhe o valor"</p>
+    
+    <ol type="1" start="10">
+        <li>html</li>
+        <li>css 3</li>
+        <li>javascrip</li>
+        <li>PHP 7</li>
+        <li>MSQL 8</li>
+    </ol>
+   
+    <h2>15 - Listas não ordenadas</h2>
+    
+    <blockquote>
+        <p><b>Tag li</b> - É usada para definir um item de lista.Deve esta sempre dentro de uma tag ul ou tag ol.</p>
+    </blockquote>
+    
+        <ul>
+            <p>Circulo Fechado - Tag li dentro da tag ul</p>
+            <li>Pão</li>
+            <li>Leite</li>
+            <li>Tomate</li>
+            <li>Manteiga</li>
+            <li>Arroz</li>
+            <li>Feijão</li>
+        </ul>
+
+        
+        <ul type="circle">
+            <p>Circulo Aberto - Tag li dentro da tag ul</p>
+            <li>Pão</li>
+            <li>Leite</li>
+            <li>Tomate</li>
+            <li>Manteiga</li>
+            <li>Arroz</li>
+            <li>Feijão</li>
+        </ul>
+
+        
+        <ul type="square">
+            <p>Quadradinho - Tag li dentro da tag ul</p>
+            <li>Pão</li>
+            <li>Leite</li>
+            <li>Tomate</li>
+            <li>Manteiga</li>
+            <li>Arroz</li>
+            <li>Feijão</li>
+        </ul>
+    
+        <h3><b>Minhas linguagem favoritas</b></h3>
+        <ol>
+            <li>Antigas</li>
+            <ol type="a"> 
+                <li>Clipper</li>
+                <li>Visual Basic</li>
+                <li>Fortran</li>
+                <li>Delphi</li>
+            </ol>
+                <li>Novas</li>
+            <ol type="a" start="5"> <!--O numero 5 porque o a da segunda lista é o Quinto numero unindo as duas listas-->
+                <li>PHP</li>
+                <li>Python</li>
+                <li>javascript</li>
+                <li>Kotlin</li>
+
+            </ol>
+        </ol>
+        <h3>Meus jogos favoritos</h3>
+        <ol>
+            <li>Nes</li>
+            <ul type="square">
+                <li>Mario Bross</li>
+                <ul type="circle">
+                    <li>Mario Bross 3</li>
+                    <li>Mario: Lost levels</li>
+                </ul>
+                <li>Ninja Gaiden</li>
+            </ul>
+            <li>SNes</li>
+            <ul type="square">
+                <li>Mario</li>
+                <li>Donkey kong</li>
+            </ul>
+            <li>PlayStation</li>
+            <ul type="square">
+                <li>Final Fantasy</li>
+                <li>Castlevania</li>
+            </ul>
+        </ol>
+        <br>
+        <h3>Lista de Definições</h3>        
+        <blockquote>
+            <dl>
+                <dt>HTMl</dt>
+                <dd>Linguagem de marcação para criação do conteúdo de um site.</dd>
+                <dt>CSS</dt>
+                <dd>Linguagem de marcação para criação do design de um site.</dd>
+                <dt>javascript</dt>
+                <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+            </dl>
+        </blockquote>
+    
+    <br>
+    <p><b>Tag ultype="square"</b> - Sao lista que não são enumeradas em seguencias e sim com simbolos<p>
+
+        <ol>
+            <ul type="disc"><li>disc - <b>disc</b> Marca a lista com uma bolinha preta preenchida</li></ultype> 
+            <ul type="circle"></ultype><li>circle - <b>circle</b> Marca com um circulo aberto</li></ultype>
+            <ul type="square"></ultype><li>square - <b>square</b> Marca com um quadradinho todo preenchido</li></ultype>  
+        </ol>
+    <br>
+    <pre>16 - <b>Tag dl</b> - Usada para definir um titulo com a sua descrição, A tag é usada em conjunto
+     com as tags dt e dd.<br>     As tags dt->É o titulo e dd->É a descrição.</pre>    
+    <blockquote>
+        <dl>
+            <dt>Ex: Titulo</dt>
+            <dd>Descição do titulo</dd>
+        </dl>
+    </blockquote>
+    
+    <h2>Link Externos</h2>
+    <blockquote>
+        <p>20 - <b>Tag a href="link" target="_blank" rel="external"</b> - Cria um link externo clicavel tipo esse <a href="https://www.youtube.com/watch?v=KYkYq4lymbI" target="_blank"> Acessar a Pagina referente ao Assunto</a>, vocẽ abre uma outra pagina mantendo a sua pagina Atual em aberto.</p>
+        <p>O parametro <b>target="_blank"</b> faz abrir o link em uma Aba nova, Mantendo sua pagina ainda em aberto</p>
+        <p>O parametro <b>rel="external"</b>, Indica ao google que a pagina a ser aberta se refere a um link externo melhorando a busca no google</p>
+        <p>O parametro <b>rel="nofollow"</b>Diz para o mecanismo de busca(google)não de o Aval que perpetue a busca no caso que o mecanismo de busca nao faza indexação.  </p> 
+    </blockquote>
+    
+    <h2>Link internos</h2>
+    <blockquote>
+    <p>Ir para <a href="pagina2 link Externo.html"target="_self" rel="next">Proxima pagina</a></p>
+    <p>Abrir pagina na propria Aba, Usa-se o parametro <b>target="_self"</b>. Self significa na propria Aba</p>
+    <p>Abrir pagina na propria Aba, Usa-se o parametro <b>rel="next". </b>next para ir pra proxima pagina</p>
+    <p>Em <b>a href=("./endereço")</b> Esse <b>( ./ )</b> .Serve para dizer ao codigo que o endereço da pagina esta na mesma pasta</p>
+    <p>Em <b>a href=("../endereço")</b> Esse <b>( ../ )</b> .Serve para dizer ao codigo que o endereço da pagina esta na pasta anterior</p>
+    </blockquote>
+
+    <h2>Link para Dawnloads</h2>
+    <blockquote>
+    <p>Acesse esse <a href="https://www.iana.org/assignments/media-types/media-types.xhtml" target="_blank" rel="nofollow">link</a> para conferir os comandos para poder fazer dawnload de outros arquivos.Ou acesse o Endereço abaixo.</p>
+    <p>https://www.iana.org/assignments/media-types/media-types.xhtml</p>
+    <p><b>Ctrl + F</b> Abre um campo de busca para vc poder buscar o comando referente ao tipo de arquivo que quer fazer dawnload</p>
+    <p>Video <a href="https://www.cursoemvideo.com/curso/html5-css3-modulo1/aulas/modulo-1-2/modulos/capitulo-10-aula-3-links-para-download-2/" target="_blank" rel="nofollow">Link</a> Aula Como usar site curso em video Curso HTML e CSS3: módulo 1 de 5 Capitulo 10 Aula 3 - Link para dawnload </p>
+    <p>Link para Dawnload do PDF <a href="Arquivo para Dawnloads/Apostila-html-css-javascript.pdf" download="Apostila-html-css-javascript">Apostila-html-css-javascript</a> </p>
+    <p>Parametros para dawnload</p>
+    <p>download="endereço do arquivo"</p>
+    <p>type="application/pdf"</p>
+    <p>type="application/zip"</p>
+</blockquote>
+    <br>    
+    <p>17 - <b>Tag linkfavicon</b> - Adiciona icone a aba da pagina</p>
+    
+    <p>18 - <b>Tag p</b> - Cria efeito negrito sem sentido semantico </p>
+    
+    <p>19 - <b>Tag i</b> - Cria efeito <i>Italico</i> sem semantica</p>
+    
+    <p>20 - <b>Tag em</b> - Cria efeito <em>Italico</em> com semantica</p>
+    <br>
+    <pre>21 - <b>Tag mark</b> - Faz <mark>Marcação em testo igual as canetas amarelas</mark> podendo usar <b>style </b> para
+     modificar a cor de cada Tag <b>style</b> idependente a cor uma da outra tendo assim varicas cores
+     diferentes porem tera que fazer uma a uma individualmente</pre>
+    <blockquote>
+        <p>Caso seja nescessário modificar varias <b>Tag mark</b> da sua pagina com a mesma cor</p>
+        <p>Vocẽ pode criar dentro da <b>head</b> uma <b>Tag style</b></p>
+        <p>Dentro da <b>Tag style</b> uma <b>Tag mark</b></p>
+        <p>E dentro da <b>Tag mark</b> um <b>background-color</b></p>
+        <p>Depois é só escolher a cor assim, Todas as marcações teram a mesma cor.</p>  </blockquote>
+    <br>
+    <p>22 - <b>Tag del</b> - Criar efeito <del><big>palavra riscadaou excluida</big></del></p>
+    
+    
+    <p>23 - <b>Tag small</b> - Cria o efeito <small>(texto pequeno)</small></p>
+    <p>24 - <b>Tag ins</b> - Cria o efeito de texto <ins>sublinhado</ins></p> 
+    <p>25 - <b>Tag u</b> - Cria o efeito de texto <u>sublinhado não semantico</u></p>
+    <p>26 - <b>Tag sup</b> -  x<sup>20</sup>+3 - Cria o efeito sobrescrito (a Cima)</p>
+    <p>27 - <b>Tag sub</b> - H<sub>2</sub>O - Cria o efeito subscrito (a baixo)</p>
+    
+<!--
+    <h2>28 - Imagens Dinamicas</h2>
+    <blockquote>
+        <dl>
+            <dt>Imagem para celular</dt>
+            <dd>largura 300</dd>
+            <dd>Altura 300</dd>
+            <dd>resolução x: 80</dd>
+            <dd>resolução y: 80</dd>
+            <dd>Prescisão: inteiro de 8 bits</dd>
+            <dd>Preencher com: cor de fundo</dd>
+        </dl>
+        <dl>
+            <dt>Imagem para Tablet</dt>
+            <dd>largura 700</dd>
+            <dd>Altura 700</dd>
+            <dd>resolução x: 80</dd>
+            <dd>resolução y: 80</dd>
+            <dd>Prescisão: inteiro de 8 bits</dd>
+            <dd>Preencher com: cor de fundo</dd>
+        </dl>
+        <dl>
+            <dt>Imagem para NotBoock tvs PC e tudo mais</dt>
+            <dd>largura 1000</dd>
+            <dd>Altura 1000</dd>
+            <dd>resolução x: 80</dd>
+            <dd>resolução y: 80</dd>
+            <dd>Prescisão: inteiro de 8 bits</dd>
+            <dd>Preencher com: cor de fundo</dd>
+        </dl>
+    </blockquote>
+
+    <h2>Imagens que se Dinâmicas (Que adaptam sozinhas)</h2>
+    <pre>     Ir para <a href="imagens dinaminas.html"target="_self" rel="next">Imagens Dinâmicas</a></pre>
+    <blockquote>
+        <h1>Imagem Dinâmicas</h1>
+        <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+        <p>OBS: No width: tem sempre que colocar o tamanho seguido de px e você tambem pode trocar <b>max</b> por <b>min</b></p>
+        <p>Ordem das fotos da <b>menor</b> para <b>maior</b></p>
+        <p>Em srcset= tem sempre que colocar a <b>pasta / Nome da imagem.png</b></p>
+        <p>Em <b>alt=</b> Você coloca o nome do titulo dado a Imagem</p>
+        <picture>
+            <source media="(max-width:750px )" srcset="img/Imagem-P.png"
+            type="image/png">
+            <source media="(max-width:1050px)" srcset="img/Imagem-M.png"
+            type="image/png">
+          <img src="img/Imagem-G.png" alt="Imagem flexicivel">
+        </picture>
+    </blockquote>
+    
+    
+    
+    <pre>
+        <h2>   Colocando Audio em seu site</h2>
+    </pre>
+    <blockquote>
+    <p><b>Tocar</b> um <b>audio audio src="nome da midia" controls autoplay</b></p>
+    <p><b>autoplay-></b> Faz a musica se reproduzida sem aparecer o painel de controle</p>
+    <p><b>controls-></b> Faz aparecer o painel de controle para dar play e tocar o som,pausar e aumentar o volume e baixar a musica</p>   
+    <p><b>Formato de audio compativeis</b> com todos os navegadores -> <b>MP3 WAV OGG</b></p>
+    <audio src="midia/Libertad!.mp3" controls></audio>
+    -->
+    
+    <!--
+    <h3>Segunda forma de Adicionar o Audio no seu site</h3>
+    
+    <audio preload="metadata" controls loop>
+        <source src="midia/Restaurant.mp3" type="audio/mpeg">
+        <source src="midia/Lobo Loco.mp3" type="audio/ogg">
+        <source src="midia/Libertad!.mp3" type="audio/wav">
+        
+    </audio>
+    
+        <p>Na segunda forma de add musica foram colocados 3 musicas com formatos diferentes(olhe o codigo fonte da pagima) o site ira tentar rodar o primeiro se não carregar tentara os proximos seguindo a ordem colocada.</p>
+        <p>Parametros colocados junto da palavra audio da teg audio</p>
+        <p><b>controls-></b> Faz aparecer o painel de controle para dar play e tocar o som,pausar e aumentar o volume e baixar a musica</p>
+        <p><b>autoplay-></b> Faz a musica se reproduzida sem aparecer o painel de controle</p>
+        <p><b>Loop</b> -> Faz a musica tocar novamente toda vez que ela acaba</p>
+        <p><b>preload="auto"</b> -> Só vai tocar a musica quando o site carregar todo por completo.</p>
+        <p><b>preload="metadata"</b> -> Vai carregar somente as informações das musicas tipo Data,Duração, Tamanho,</p>
+        <p><b>preload="none"</b>-> Não carrega nada(nao faz dawnload) toca a musica somente quando o usuario aperta o play </p>
+    </blockquote>
+    <br>
+    <h2>Videos em seu site</h2>
+    <p>Resolução maxima 1080P</p>
+    <p>formato pricipal mkv</p>
+    <p>Coloque o mesmo video sempre com todos os formatos compativeis com todos navegadores OBS:(todos Iphone tem como base o Safari)</p>
+    <p>Navegador Safari nao é compativel com AVG</p>
+    <p>Formatos <b>suportados</b> MP4 e M4G, OGV, webm (pequeno e ruin)</p>
+    
+    
+    <pre>
+    <h3>Conversor de videos top HandBrake</h3>
+    <img src="img/HandBrake.png" alt="HandBrake">
+
+    <b>Instalar a versão mais recente do HandBrake no Ubuntu</b>
+    sudo add-apt-repository ppa:stebbins/handbrake-releases
+    sudo apt-get update
+    sudo apt-get install handbrake-gtk
+    sudo apt-get install handbrake-cli
+        
+    <b>Desistalar o HandBrake</b>
+    sudo add-apt-repository ppa:stebbins/handbrake-releases -r -y
+    sudo apt-get remove handbrake-gtk handbrake-cli --auto-remove
+    </pre>
+    
+    
+    <h2>Vidos hospedados localmente (localhost em sua máquina)</h2>
+    <h2>Primeira forma de colocar videos</h2>
+    <video src="midia/Moça 5,4 MB MP4"width="400"controls loop autoplay></video>
+    <hr>
+    <h3>Segunda forma de colocar videos usando o <b>source src=</b>"endereço da imagem" Type="tipo de arquivo(ex:video)/formato do arquivo (ex: mp4)".</h3>
+    <hr>
+    <video poster="img/Mauri-250-PNG.png" controls>
+        <source src="midia/Gato 572,5 KB MP4 720x30 Vimeo e youtube.m4v" type="video/mp4">
+    </video>
+    <h2>Colocar uma Bamb (Capa) nos seus videos </h2>
+    <p>Em videos usa-se o parametro <b>poster="Endereço da imagem"</b></p>
+
+    <h2>Colocar videos do Youtube</h2>
+    <h3>Terceira forma de colocar videos, Melhor e mais barata pro cliente</h3>
+    <h2>Colocando videos do Youtube</h2>
+    <p> Abra o youtube -> COMPARTILHAR -> <p>incorporar -> Copiar o codigo criado pelo youtube -> E colar esse codigo em seu codigo fonte por ex: Abaixo da Tag h2 que contem o titulo do seu video que esta no youtube.</p>
+    <h2>video do youtube Animação</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/1D7D3_HFB3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    -->
+
+    <!--
+       <h2>Inserindo video do Vimeo</h2>
+    <p> Abra o Vimeo -> COMPARTILHAR -> <p>incorporar -> Copiar o codigo criado pelo Vimeo -> E colar esse codigo em seu codigo fonte por ex: Abaixo da Tag h2 que contém o titulo do seu video que está no vimeo.</p>
+    -->
+    
+    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/103406477?h=a90b955f29&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    
+
+</body>
+</html>
