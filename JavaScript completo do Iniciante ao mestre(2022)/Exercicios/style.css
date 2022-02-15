@@ -1,0 +1,16 @@
+h1{
+    font-size: Arial, helvetica, sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    font-variant: small-caps;
+    color: red;
+}
+p{
+    /*font-variant: small-caps; --> small-caps deicha as fontes como se fosse tudo em maiusculo*/
+    /*text-decoration: line-through; -->Faz um risco em cima do texto*/
+    /*text-decoration: underline; --> sublinha o texto em baixo dele*/
+    /*text-indent: 50px; --> Faz a identação do paragrafo unidade é em px*/
+    /*text-transform: uppercase; --> Transforma o texto em maiusculo*/
+    /*text-transform: lowercase; --> Transforma tudo em minusculo*/
+    
+}
