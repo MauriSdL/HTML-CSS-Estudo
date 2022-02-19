@@ -3,7 +3,7 @@
 
 //let n1 = 10;
 //let n2 = '2';// O javaScript faz automaticamente o reconhecimento e a converção
-             // implicita do valor da variavel como mostrado logo abaixo.
+               // implicita do valor da variavel como mostrado logo abaixo.
 //console.log(n1 * n2, typeof n1, typeof n2);
 //console.log(n1 + n2, typeof n1, typeof n2);
 // toda entrada de dado no javaScript é reconhecida como STRING mesmo sendo um numero por isso tem que converter
@@ -18,9 +18,10 @@ OBS: parseInt e parseFloat
 Só serao capaz de fazer a conversao se o primeiro caractere for um
 numero caso contrario aparecerá esse resultado (NaN).
 */
+
 /*
-Number -- (metodo construtor) converte para int ou float
-OBS: Se tiver(14a)ou (a14)ou (a14a) um caractere junto com um numero seja na frete ou depois do numero
+Number -- (metodo construtor) converte para int ou float (o numero nao pode conter letras)
+OBS: Se tiver(14a)ou(a14)ou(a14a) um caractere junto com um numero seja na frete ou depois do numero
 o Number vai dar como resultado (NaN) 
 */
 
@@ -39,3 +40,8 @@ o Number vai dar como resultado (NaN)
 // decimais 0 - 9
 // hexadecimais 0 - f(15)
 
+// .toFixed -->casas depois da virgula
+// variavel.toFixed(2)--2 é o numero de casas decimais depois da virgula
+num = 7;
+num2 = parseFloat(num);
+console.log(num2.toFixed(4));
