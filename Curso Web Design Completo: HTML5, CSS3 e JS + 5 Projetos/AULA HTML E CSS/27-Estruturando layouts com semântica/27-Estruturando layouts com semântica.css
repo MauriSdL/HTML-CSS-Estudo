@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    width: 100%vh;
+    height: 100%vh;
+}
+body > .menu{
+    height: 290px;
+    background-image: url(ProjetoCSS_inicio/imagens/bg-3.jpg);
+
+}
+
+.menu > img{
+    position: absolute;
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 1280px;
+    height: 400px;
+}
+.menu > .inicio{
+    background-color: rgb(143, 140, 140);
+    border: 1px solid white;
+    color: white;
+    padding-top: 14px;
+    width: 70px;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+    margin: 15px;
+}
+.menu > .souEu{
+    background-color: grey;
+    border: 1px solid white;
+    color: white;
+    padding-top: 14px;
+    width: 130px;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+    margin: 15px;
+}
+.menu > .contato{
+    background-color: grey;
+    border: 1px solid white;
+    color: white;
+    padding-top: 14px;
+    width: 90px;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+    margin: 15px;
+}
+body > main{
+    background-color: aqua;
+    /*background-color:rgb(170, 166, 166);*/
+    padding: 0px;
+    height: 290px;
+}
+
+footer{
+    margin-bottom: 0px;
+    position: absolute;
+    bottom: 0px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    height: 45px;
+    width: 1280px;
+}
