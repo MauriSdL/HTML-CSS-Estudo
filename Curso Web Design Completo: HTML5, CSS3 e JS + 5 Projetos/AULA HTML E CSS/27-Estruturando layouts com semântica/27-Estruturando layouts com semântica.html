@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso Web Fundamentos</title>
     <link rel="stylesheet" href="27-Estruturando layouts com semântica.css">
+    <link rel="stylesheet" href="CabeçalhoRodape.css">
 </head>
 
 
-
-
 <div class="menu">
+    <h1>CURSO WEB <br> FUNDAMENTOS</h1>
+    <button>Aprenda HTML,CSS e JavaScript</button>
     <p class="inicio">INÍCIO</p>
     <p class="souEu">QUEM SOU EU</p>
     <p class="contato">CONTATO</p>
@@ -20,29 +21,30 @@
 
 <body>
    <main>
-      <article>
-            <section>
+      <article class="artFoto3">
+            <section class="fotoEmlinha">
                 <div class="seletores">
-                    <img src="ProjetoCSS_inicio/imagens/card_01.png" alt="">
+                    <img class="seletores" src="ProjetoCSS_inicio/imagens/card_01.png" alt="">
                     <p>SELETORES</p>
                 </div>
 
                 <div class="posicionamento">
-                    <img src="ProjetoCSS_inicio/imagens/card_03.jpg" alt="">
+                    <img class="posicionamento" src="ProjetoCSS_inicio/imagens/card_03.jpg" alt="">
                     <p>POSICIONAMENTO</p>
                 </div>
 
-                <div fontes>
-                    <img src="ProjetoCSS_inicio/imagens/card_05.jpg" alt="">
+                <div class="fontes">
+                    <img class="fontes" src="ProjetoCSS_inicio/imagens/card_05.jpg" alt="">
                     <p>FONTES E ICONES</p>
                 </div>
 
             </section>
       </article>
 
-      <article>
-            <h2>titulo</h2>
-            <hr>
+      <article class="artTexto">
+            <div class="tituloDiv_h2">
+                <h2>titulo</h2>
+            </div>
             <p>Primeiro paragrafo de exemplo</p>
             <p>Segundo paragrafo de exemplo</p>
       </article>
