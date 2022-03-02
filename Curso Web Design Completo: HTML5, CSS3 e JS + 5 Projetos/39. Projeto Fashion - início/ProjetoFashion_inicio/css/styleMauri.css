@@ -1,0 +1,159 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:white;
+    padding: 90px;
+}
+nav{
+    background-image: linear-gradient(to right, rgb(3, 26, 36), rgb(3, 44, 61) 50%);
+    height: 55px;
+}
+/* foto com menu */
+.logo {
+    padding-left: 150px;
+    padding-top: 5px;
+}
+nav li {
+    list-style-position: inside;
+    display:inline;
+    text-transform: uppercase;
+    position: relative;
+    left: 420px;
+    padding: 15px;
+    color: rgb(75, 112, 136);
+}
+.paginaCentralizada{
+    position: static;
+}
+.modelo_fashion {
+    position: relative;
+    top: 0px;
+    height: 495px;
+    width: 1405px;
+}
+/* fim da foto com menu */
+
+
+
+/* Primeiro paragrafo */
+.paragrafo1 {
+    position: relative;
+    left: 100px;
+    width: 930px;
+    height: 100px;
+}
+h2{
+    font-size: 38px;
+    font-style: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    text-align:calc();
+    color: rgb(90, 86, 86);
+}
+/* fim do Primeiro paragrafo */
+
+
+
+/* Card com 3 fotos */
+.tres_fotos {
+    background-color: white;
+    margin-left:100px;
+    margin-top: 260px;
+    width: 930px;
+    display: inline-flex;
+}
+.fotoEsquerda img{
+    width: 296px;
+    height: 180px;
+}
+.fotoMeio img{
+    
+    width: 296px;
+    height: 180px;
+    padding-left: 21px;
+    padding-right: 21px;
+}
+.fotoDireita img{
+    width: 296px;
+    height: 180px;
+}
+.foto_Titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.foto_Sub_Titulo{
+    color: rgb(161, 156, 156);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* fim do Card com 3 fotos */
+
+
+/* sub conteudo  */
+section img{
+    position: static;
+    width: 1085px;
+    height: 580px;
+    position: static;
+    margin-top: 110px;
+}
+section h1 {
+    font-size: 70px;
+    font-family:serif;
+    text-align: justify;
+    padding: 100px;
+    position: absolute;
+    top: 1420px;
+    color: white;
+}
+section .p2 {
+    width: 700px;
+    text-align: left;
+    position:absolute;
+    margin-top: 400px;
+    margin-left: 90px;
+}
+/* fim sub conteudo */
+
+
+/* texto acima do mapa */
+.texto_acima_mapa {
+    color: rgb(17, 17, 49);
+    margin-top: 50px;
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+/* fim texto acima do mapa */
+
+/* mapa */
+.mapa  iframe{
+    background-color: aqua;
+    height: 500px;
+    width: 1085px;
+    position: static;
+}
+/* fim mapa */
+
+/* radape */
+footer p {
+    background-color: black;
+    height: 55px;
+}
+/* fim do rodape */
