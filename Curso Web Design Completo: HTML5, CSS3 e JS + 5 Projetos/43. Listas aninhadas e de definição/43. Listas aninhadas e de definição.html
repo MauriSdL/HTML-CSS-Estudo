@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas de Definição</title>
+    <style>
+        /*
+        li ul{
+            display: none;
+        }
+        
+        li:hover{
+            background: #ccc;
+        }
+        li:hover ul{
+            display: block;
+        }
+        */
+        li ul{
+            height: 0;
+            overflow: hidden;
+            transition: heigth .1s;
+        }
+        
+        li:hover{
+            background: #ccc;
+        }
+        li:hover ul{
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Tag dl Definition list -->
+    
+    
+    <!-- dt Defiition termo - A <dt>tag define um termo/nome
+        em uma lista de descrição.
+        A <dt>tag é usada em conjunto com <dl> (define uma
+        lista de descrição) e <dd> (descreve cada termo/nome).
+    -->
+
+
+    <!-- dd - A tag <dd> é usada para descrever um termo/nome
+        em uma lista de descrição . A tag <dd> é usada em
+        conjunto com <dl> (define uma lista de descrição) e
+        <dt> (define termos/nomes). Dentro de uma tag <dd>
+        você pode colocar parágrafos, quebras de linha,
+        imagens, links, listas, etc.
+    -->
+<div>   
+
+    <ul>
+        <li>item 1</li>
+        <li>item 2
+            <ul>
+                <li>item 2.1</li>
+                <li>item 2.2</li>
+            </ul>
+        </li>
+        <li>item 3</li>
+        <p>OBS: O item 2 tem itens ocultos passe o mause por cima do item 2</p>
+    </ul>
+    <hr>
+    <dl>
+
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação de Hypertexto</dd>
+
+        <dt>CSS</dt>
+        <dd>Linguagem para criação de folhas de estilos</dd>
+    
+    </dl>
+
+    <hr>
+
+    <dl>
+        <dt>WWW</dt>
+        <dt>internet</dt>
+        <dd>rede mundial de computadores</dd>
+
+        <dt>Javascript</dt>
+        <dd>linguagem script para internet</dd>
+        <dd>script para rodar no browser</dd>
+    </dl>
+</div>
+</body>
+</html>
