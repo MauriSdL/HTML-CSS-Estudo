@@ -6,43 +6,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ex01</title>
     <style>
-
+        table{
+            border: 2px solid black;
+            border-collapse: collapse;
+            background-color: rgb(199, 241, 241);
+            text-align: center;
+            margin: auto;
+            margin-top: 50px;
+        }
+        caption{
+            font-size: 30px;
+            font-weight: bolder;
+            border: 2px solid black;
+            background-color: red;
+            letter-spacing: 3px;
+        }
+        th{
+            border: 2px solid black;
+            letter-spacing: 2px;
+            padding: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        td{
+            border: 2px solid black;
+            padding: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        
     </style>
 </head>
 <body>
     <table>
-        <caption>Minha tabela</caption>
+        <caption>Tabela 1</caption>
         
         <thead>
             <tr>
-                <th>Python</th>
-                <th>Java</th>
-                <th>HTML</th>
-                <th>CSS</th>
+                <th>Processador</th>
+                <th>Velocidade <br>(MHz)</th>
+                <th>Preço de <br>Lançamento</th>
+                <th>Data de <br>Lançamento</th>
+                <th>Preços em <br>Agosto/2000</th>
+                <th>Queda <br>%</th>
             </tr>
-        </thead>
-        
-        <tfoot>
-        <tr>
-            <td>Eu sou Mauri</td>
-        </tr>
-    </tfoot>
 
-    <tbody>
-        <tr>
-            <td>Mauri</td>
-            <td>Luana</td>
-            <td>Felipe</td>
-            <td>Carlos</td>
-        </tr>
-        
-        <tr>
-            <td>Marcos</td>
-            <td>Julia</td>
-            <td>Marcos</td>
-            <td>Alexandre</td>
-        </tr>
-    </tbody>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="2">AMD K-6</td>
+                <td>200</td>
+                <td>315</td>
+                <td>Abril/97</td>
+                <td>107</td>
+                <td>66</td>
+            </tr>
+
+            <tr>
+                <!-- <td>AMD K-6</td> -->
+                <td>233</td>
+                <td>437</td>
+                <td>Maio/97</td>
+                <td>284</td>
+                <td>35</td>
+            <tr>
+                <td rowspan="2">Cyris 6x86</td>
+                <td>220</td>
+                <td>240</td>
+                <td>Maio/97</td>
+                <td>188</td>
+                <td>22</td>
+            </tr>
+
+            <tr>
+                <!-- <td>Cyris 6x86</td> -->
+                <td>233</td>
+                <td>320</td>
+                <td>Maio/97</td>
+                <td>290</td>
+                <td>9</td>
+            </tr>
+
+            <tr >
+                <td rowspan="2">Intel pentium II</td>
+                <td>233</td>
+                <td>636</td>
+                <td>Maio/97</td>
+                <td>530</td>
+                <td>17</td>
+            </tr>
+
+            <tr>
+                <!-- <td>Intel pentium II</td> -->
+                <td>266</td>
+                <td>775</td>
+                <td>Maio/97</td>
+                <td>699</td>
+                <td>10</td>
+            </tr>
+        </tbody>
 </table>
     </body>
 </html>
