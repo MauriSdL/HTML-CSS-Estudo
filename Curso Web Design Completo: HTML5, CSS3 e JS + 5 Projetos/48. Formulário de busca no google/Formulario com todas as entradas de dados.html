@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario completo</title>
+</head>
+<body>
+    <form action="#" method="post" class="formlogin">
+        <fieldset>
+            <!-- nome em cima da borda criada com a tag fildset -->
+            <legend>Formulario completo</legend>
+            
+            <!--Campo do nome  -->
+            <label for="entrada_do_nome">Nome:</label>
+            <input type="text" name="q" id="entrada_do_nome">
+
+            <!-- telefone -->
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="" id="telefone">
+            
+            <!-- URL -->
+            <label for="">URL</label>
+            <input type="url" name="" id="url">
+
+            <!-- search -->
+            <label for="search">Search</label>
+            <input type="search" name="" id="search">
+
+            <!-- Campo do E-mail -->
+            <label for="">E-mail</label>
+            <input type="email" required>
+
+            <!-- mostra um valor numerico com seta bara subir e baixar o valor -->
+            <!-- min="0" max="10" Indica o valor minimo a ser digitado e valor maximo a ser digitado -->
+            <!-- step="0.5"faz o numero crescer de acordo com o valor colocado em step ex: 0.5, 1, 1.5, 2, 2.5.  -->
+            <label for="">numero de filhos</label>
+            <input type="number" min="0" max="10">
+
+            <!-- Cria um calendario para escolher uma data -->
+            <!-- min="2018-01-30"A data  só aceita formato americano (ANO-MES-DIA) -->
+            <!-- max="2025-01-30"A data  só aceita formato americano (ANO-MES-DIA) -->
+            <label for="date">Nascimento</label>
+            <input type="date" min="1980-01-31" max="2025-01-30">
+
+            <!-- radio tipo para escolha de sexo masculino ou feminino -->
+            <!-- Para que funcione certinho tem que colocar um nome na propriedade name de ambos os inputs -->
+            <!-- É a propriedade name que faz apenas um item ser selecionado desmarcando automaticamente o outro -->
+            <!-- value="" serve para informar para o servidor ou banco de dados qual o campo que foi selecionado masculino ou feminino -->
+            <p>Sexo</p>
+            <label>
+                <input type="radio" name="sexo" value="M">
+                Masculino
+            </label>
+            <label>
+                <input type="radio" name="sexo" value="F">
+                Feminino
+            </label>
+            <!-- 
+                segunda forma de fazer o radio 
+            <input type="radio" id="feminino" name="genero" value="masculino" required>
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="feminino" name="genero" value="feminino" required>
+            <label for="feminino">Feminino</label>
+        -->
+            <!-- Barra de pregresso tipo aumentar volume -->
+            <!-- atributos -->
+            <!-- max valor maximo -->
+            <!-- min valor minimo-->
+            <!-- step pula a contagem de acordo com o numero coocado em step tipo 2 4 6 8 se vc colocar ex:2-->
+            <input type="range" min="0" max="100" step="3">
+
+            <!-- Campo para colocar a hora -->
+            <input type="time">
+
+            <!--Cria uma caixinha para escolher a cor tem que verificar se os brauser estao aceitando o firefox nao estava  -->
+            <input type="color">
+
+            <select multiple>
+                <!-- poder no lugar de multiple usar size="esquelhe a quantidade que queres que apareça" -->
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="BH">Bahia</option>
+            </select>
+
+            <fieldset>
+                <!-- Cria caixa de seleção com multiplas marcações +1 marcado -->
+                <legend>Area de interesse</legend>
+                <label><input type="checkbox" name="html"value"html">HTML</label>
+                <label><input type="checkbox" name="css"value"css">CSS</label>
+                <label><input type="checkbox" name="javaScript"value"javaScript">JavaScript</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>menssagem</legend>
+                <!-- cols="" numero de colunas -->
+                <!-- rows="" numero de linhas -->
+                <!-- resize:none Esse parametro é colocado no css para desabilitar o redimensionamento da area de digitação que esta no canto inferior direito -->
+                <textarea name="msg" id="" cols="30" rows="10"></textarea>
+
+                <!--disabled deixa o texto desabilitado e na cor sinza  -->
+                <!-- readonly deixa apenas desabilitado mas aparece normal mas sem poder ser editado -->
+                <textarea name="contrato" id="" cols="30" rows="10" readonly>Aqui entra o texto do contrato que prescisa ser aceito nao podendo ser Editado pelo usuario</textarea>
+                <label><input type="checkbox">Li e aceito</label>
+            </fieldset>
+
+            <!-- hidem é uma menssagem que nao aparece paera o usuario -->
+            <!-- tipo uma data de expiraçao -->
+            <input type="hidden" name="expira" value="2018-12-30">
+
+        
+            <!-- Botão para enviar formulario -->
+            <input type="submit" value="logar" class="btn">
+
+            <!-- reset limpa os campos do formulario -->
+            <input type="reset" value="reset">
+
+            <!-- Button cria um botao onde sua função será criada pelo java script -->
+            <input type="button" value="buttom">
+        </fieldset>
+    </form>
+</body>
+</html>

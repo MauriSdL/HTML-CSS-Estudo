@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transiçoes suaves</title>
+    <style>
+        div{
+            width: 10px;
+            height: 20px;
+            background-color: orange;
+            
+            transition-property: width ,heigth;
+            transition-duration: 1s, 2s;
+            transition-delay:1s, 2s;
+            transition-timing-function:cubic-bezier(.67,-0.38,.5,1.5),linear;
+            /* qual a propriedade que ele vai mudar largura ou altura por ex: */
+            /* coloque all se quiser aplicar a todas as propriedades */
+            /* transition-duration-> tempo de duraçao do efeito primeiro valor segue a mesma ordem do transition-propriedade */
+            /* transition-timing-function:cubic-bezier */
+            /* Determina se o efeito tera aceleração e o tipo de aceleração  */
+            /* linear começa na mesma velocidade que termina */
+            /* ease desacelera no final */
+            /* ease-in acelera e para bruscamente */
+            /* ease-out começa rapido e vai desacelerando */
+            /* ease-in-out acelera e desacelera no final  */
+            /* cubic-bezier  pode ser colocado um para cada propriedade*/
+            /* transition-delay faz um atrazo no inicio da animação */
+        }
+        div:hover{
+            width: 470px;
+            height: 1000px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Estrutura basica</h1>
+
+    <div>1</div>
+</body>
+</html>
